@@ -107,6 +107,15 @@ hr{
     .heading{
         display: block;
     }
+    .photo{
+        text-align: center;
+    }
+    .photo img{
+        translate: -10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
 @media (max-height:600px) {
     .box{
@@ -115,5 +124,16 @@ hr{
     }
     footer{
         background-color: white;
+    }
+}
+@media (max-height:450px) {
+    .head{
+        translate: 10vw 2vh;
+    }
+}
+@media (max-height:250px) {
+    header{
+        min-height: 80px;
+        max-height: 100px;
     }
 }
