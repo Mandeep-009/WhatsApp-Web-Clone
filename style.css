@@ -55,7 +55,7 @@ ul li{
     display: flex;
 }
 .photo img{
-    translate: 175px;
+    translate: 12vw;
 }
 hr{
     border-color: azure;
@@ -64,6 +64,7 @@ hr{
     min-height: 72vh;
     background-color: azure;
     padding: 40px;
+    text-align: center;
 }
 .lower a{
     text-decoration: none;
@@ -76,6 +77,27 @@ hr{
 .finalHeads{
     text-align: center;
 }
-.lower iframe{
-    translate: 16vw;
+.lower span{
+    display: inline-block;
+}
+@media (max-width:1250px) {
+    .photo img{
+        translate: 8.5vw;
+    }
+}
+@media (max-width:1150px) {
+    .photo img{
+        translate: 3vw;
+    }
+}
+@media (max-width:800px) {
+    .lower{
+        padding: 0;
+        overflow: scroll;
+    }
+}
+@media (max-width:700px) {
+    .heading{
+        display: block;
+    }
 }
