@@ -95,9 +95,25 @@ hr{
         padding: 0;
         overflow: scroll;
     }
+    .box{
+        width: 100vw;
+        translate: 0 -180vh;
+    }
+    footer{
+        background-color: white;
+    }
 }
 @media (max-width:700px) {
     .heading{
         display: block;
+    }
+}
+@media (max-height:600px) {
+    .box{
+        width: 100vw;
+        translate: 0 -180vh;
+    }
+    footer{
+        background-color: white;
     }
 }
